@@ -1,0 +1,64 @@
+{
+  "employees": [
+    {
+      "name": "Andrey Orlov",
+      "salary": 4200,
+      "hidden": false,
+      "id": "1"
+    },
+    {
+      "name": "Ivan Maiseenok",
+      "salary": 4400,
+      "hidden": false,
+      "id": "2"
+    },
+    {
+      "name": "Sergei Aleshin",
+      "salary": 5500,
+      "hidden": false,
+      "id": "3"
+    },
+    {
+      "name": "Vadim Shilko",
+      "salary": 6000,
+      "hidden": false,
+      "id": "4"
+    },
+    {
+      "name": "Vasiliy Velugo",
+      "salary": 6700,
+      "hidden": false,
+      "id": "5"
+    },
+    {
+      "name": "Faina Lagosh",
+      "salary": 3300,
+      "hidden": false,
+      "id": "6"
+    },
+    {
+      "name": "Sergei Pashkevich",
+      "salary": 4500,
+      "hidden": false,
+      "id": "7"
+    },
+    {
+      "name": "Vasiliy Vydrickiy",
+      "salary": 4600,
+      "hidden": false,
+      "id": "8"
+    },
+    {
+      "name": "Anatoliy Zhabenok",
+      "salary": 5700,
+      "hidden": false,
+      "id": "9"
+    },
+    {
+      "name": "Viktor Bohan",
+      "salary": 4900,
+      "hidden": false,
+      "id": "10"
+    }
+  ]
+}

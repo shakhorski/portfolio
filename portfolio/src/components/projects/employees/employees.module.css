@@ -1,0 +1,110 @@
+
+.header {
+    padding: 20px;
+    text-align: left;
+    background-color: rgb(65, 88, 139);
+    font-size: x-large;
+
+
+}
+
+.filter {
+    margin: 30px 0;
+    padding: 30px 10px;
+    background-color: rgb(65, 88, 139);
+}
+.filter input {
+width: 90%;
+    margin: 20px auto;
+}
+
+
+.filter button {
+    margin: 0 20px;
+    width: 150px;
+    font-size: smaller;
+    color: black;
+    background-color: #fff;
+    border-color: rgb(208, 208, 208);
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.filter button:hover {
+    background-color: rgb(38, 62, 119); /* Green */
+    color: white;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24);
+    cursor: pointer;
+}
+
+.figure {
+    background-color: rgb(212, 212, 212);
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 40px;
+
+}
+.container {
+    margin: 0 auto;
+    width: 800px;
+
+    
+}
+
+
+
+
+.employees {
+    padding: 10px 0;
+    background-color: #fff;
+    color: black;
+    display: flex;
+
+    border-bottom: 1px solid
+}
+.hidden {
+    display: none
+}
+
+.opacity {
+    opacity: 0;
+}
+
+.employees .name {
+    margin-right: auto;
+    margin-left: 40px;
+}
+.employees .salary {
+   width: 190px;
+}
+
+.employees .buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.employees .buttons div {
+    position: relative;
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: #ebebeb;
+
+}
+
+.employees img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    margin-top: -15px;
+
+
+}
+.employees img:hover {
+
+    cursor: pointer;
+}

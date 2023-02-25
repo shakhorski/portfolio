@@ -1,64 +1,84 @@
 {
   "employees": [
     {
-      "name": "Andrey Orlov",
-      "salary": 4200,
-      "hidden": false,
-      "id": "1"
-    },
-    {
-      "name": "Ivan Maiseenok",
-      "salary": 4400,
-      "hidden": false,
-      "id": "2"
-    },
-    {
-      "name": "Sergei Aleshin",
-      "salary": 5500,
-      "hidden": false,
-      "id": "3"
-    },
-    {
       "name": "Vadim Shilko",
       "salary": 6000,
       "hidden": false,
-      "id": "4"
+      "id": 1,
+      "isPromoted": false,
+      "hasBonus": false
     },
     {
       "name": "Vasiliy Velugo",
       "salary": 6700,
       "hidden": false,
-      "id": "5"
+      "id": 2,
+      "isPromoted": false,
+      "hasBonus": false
     },
     {
-      "name": "Faina Lagosh",
-      "salary": 3300,
-      "hidden": false,
-      "id": "6"
-    },
-    {
-      "name": "Sergei Pashkevich",
+      "name": "Serhei Pashkevich",
       "salary": 4500,
       "hidden": false,
-      "id": "7"
+      "id": 3,
+      "isPromoted": false,
+      "hasBonus": false
     },
     {
       "name": "Vasiliy Vydrickiy",
       "salary": 4600,
       "hidden": false,
-      "id": "8"
-    },
-    {
-      "name": "Anatoliy Zhabenok",
-      "salary": 5700,
-      "hidden": false,
-      "id": "9"
+      "id": 4,
+      "isPromoted": false,
+      "hasBonus": false
     },
     {
       "name": "Viktor Bohan",
       "salary": 4900,
       "hidden": false,
-      "id": "10"
+      "id": 5,
+      "isPromoted": false,
+      "hasBonus": false
+    },
+    {
+      "name": "Serhei Aleshin",
+      "salary": 5500,
+      "hidden": false,
+      "id": 6,
+      "isPromoted": false,
+      "hasBonus": false
+    },
+    {
+      "name": "Faina Lahosh",
+      "salary": 3800,
+      "hidden": false,
+      "id": 7,
+      "isPromoted": false,
+      "hasBonus": false
+    },
+    {
+      "name": "Andrei Orlov",
+      "salary": 4800,
+      "hidden": false,
+      "id": 8,
+      "isPromoted": false,
+      "hasBonus": false
+    },
+    {
+      "name": "Dmitriy Maslouski",
+      "salary": 5000,
+      "hidden": false,
+      "id": 9,
+      "isPromoted": false,
+      "hasBonus": false
+    },
+    {
+      "name": "Vadim Burnosenko",
+      "salary": 5100,
+      "hidden": false,
+      "id": 10,
+      "isPromoted": false,
+      "hasBonus": false
     }
   ]
 }

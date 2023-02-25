@@ -78,6 +78,10 @@ width: 90%;
 .employees .salary {
    width: 190px;
 }
+.bonus {
+    color: darkgoldenrod;
+    
+}
 
 .employees .buttons {
     display: flex;

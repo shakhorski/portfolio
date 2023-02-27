@@ -1,7 +1,16 @@
 .header {
-    min-height: 100vh;
-    background: #05001a;
+
+    background-color: #05001a;
     padding: 20px 80px;
+}
+@media (max-width: 767px) {
+
+
+
+     img {
+        width: 350px;
+    }
+   
 }
 
 .top {

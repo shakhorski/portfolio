@@ -71,14 +71,6 @@
       "id": 9,
       "isPromoted": false,
       "hasBonus": false
-    },
-    {
-      "name": "Vadim Burnosenko",
-      "salary": 5100,
-      "hidden": false,
-      "id": 10,
-      "isPromoted": false,
-      "hasBonus": false
     }
   ]
 }

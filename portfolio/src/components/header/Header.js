@@ -26,13 +26,13 @@ export function Header() {
         </div>
         <div className={cssHeader.social}>
           <div>
-            <img src="/icons/github.png" alt="logo" />
+          <a href="https://github.com/shakhorski"><img src="/icons/github.png" alt="github" /></a>  
           </div>
           <div>
-            <img src="/icons/linkedin.png" alt="logo" />
+           <a href="https://www.linkedin.com/in/anton-shakhorski-4435b224b/"><img src="/icons/linkedin.png" alt="linkedin" /></a> 
           </div>
           <div>
-            <img src="/icons/instagram.png" alt="logo" />
+            <a href="https://www.instagram.com/shakhorski/"><img src="/icons/instagram.png" alt="instagram" /></a>
           </div>
         </div>
       </div>

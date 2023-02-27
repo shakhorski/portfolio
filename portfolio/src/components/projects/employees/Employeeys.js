@@ -45,7 +45,8 @@ function Employees() {
       },
     ]);
   }
-  function deleteEmployee(key) {
+  function deleteEmployee(e, key) {
+    e.stopPropagation()
     setData(data.filter((item) => item.id !== key));
     fetch(url + key, { method: "DELETE" });
   }
@@ -154,7 +155,7 @@ setData(data.filter(item=>(~item.name.toUpperCase().indexOf(e.target.value.toUpp
                         alt="logo"
                       />
                     </div>
-                    <div name="delete" onClick={() => deleteEmployee(item.id)}>
+                    <div name="delete" onClick={(e) => deleteEmployee(e, item.id)}>
                       <img src="/icons/delete.png" alt="logo" />
                     </div>
                     <div>
@@ -174,11 +175,17 @@ setData(data.filter(item=>(~item.name.toUpperCase().indexOf(e.target.value.toUpp
           )}
         </div>
 
-        <div>
-          <h2>{name}</h2>
-          <input onChange={(e) => setName(e.target.value)}></input>
-          <input onChange={(e) => setSalary(e.target.value)}></input>
-          <button onClick={() => addEmployee()}>Add</button>
+        <div className={emp.footer}>
+          <div className={emp.container}>
+                      <h3>Add e new employee</h3>
+          <div className={emp.form}>
+                     <input onChange={(e) => setName(e.target.value)} placeholder="Name"></input>
+          <input onChange={(e) => setSalary(e.target.value)} placeholder="Salary"></input>
+          <button onClick={() => addEmployee()}>Add</button> 
+          </div>
+          </div>
+
+
         </div>
       </div>
     </div>

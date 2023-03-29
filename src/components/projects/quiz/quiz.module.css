@@ -1,0 +1,33 @@
+.container {
+margin: 40px auto 80px auto;
+width: 500px;
+
+
+
+}
+
+.progressbarContainer {
+    background-color: #cfcfcf;
+    height: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.progressbar {
+    background-color: #00643a;
+}
+
+.variants {
+    padding: 8px 18px;
+margin: 2px auto;
+    border: solid 1px #b2b2b2;
+    border-radius: 5px;
+}
+
+.variants:hover {
+ background-color: #acacac;
+}
+
+.true {
+    background-color: #00643a;
+}

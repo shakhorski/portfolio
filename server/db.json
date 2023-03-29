@@ -1,36 +1,12 @@
 {
   "employees": [
     {
-      "name": "Vadim Shilko",
-      "salary": 6000,
-      "hidden": false,
-      "id": 1,
-      "isPromoted": true,
-      "hasBonus": false
-    },
-    {
-      "name": "Vasiliy Vydrickiy",
-      "salary": 4600,
-      "hidden": false,
-      "id": 4,
-      "isPromoted": true,
-      "hasBonus": false
-    },
-    {
-      "name": "Viktor Bohan",
-      "salary": 4900,
-      "hidden": false,
-      "id": 5,
-      "isPromoted": false,
-      "hasBonus": true
-    },
-    {
       "name": "Serhei Aleshin",
       "salary": 5500,
       "hidden": false,
       "id": 6,
       "isPromoted": false,
-      "hasBonus": true
+      "hasBonus": false
     },
     {
       "name": "Faina Lahosh",

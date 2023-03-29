@@ -69,7 +69,26 @@ export function Main() {
           >
             <h1>Quiz</h1>
 
-            <img src="/image/calc.png" alt="calculator" width="400px"></img>
+            <img src="/image/quiz.png" alt="quiz" width="400px"></img>
+            <div className={main.black}>1</div>
+          </div>
+        </Link>
+      </div>
+      <div className={main.main} id="projects">
+        <div className={main.title}>
+          <h1>Project #4</h1>
+        </div>
+
+        <div className={main.bg}></div>
+        <Link to="/currency">
+          <div
+            className={main.content}
+            onMouseEnter={addClass}
+            onMouseLeave={removeClass}
+          >
+            <h1>Currency Converter</h1>
+
+            <img src="/image/currency.png" alt="currency" width="400px"></img>
             <div className={main.black}>1</div>
           </div>
         </Link>
